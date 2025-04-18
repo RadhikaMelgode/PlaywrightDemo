@@ -9,6 +9,7 @@ test('has title', async ({ page }) => {
 });
 
 test('get started link', async ({ page }) => {
+  //demo for git
   await page.goto('https://playwright.dev/');
 
   // Click the get started link.
